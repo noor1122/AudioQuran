@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CEC82B01B39B1AE008217BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEC82AF1B39B1AE008217BF /* AppDelegate.swift */; };
+		7CEC82B21B39B1AE008217BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEC82B11B39B1AE008217BF /* ViewController.swift */; };
+		7CEC82B51B39B1AE008217BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CEC82B31B39B1AE008217BF /* Main.storyboard */; };
+		7CEC82B71B39B1AE008217BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CEC82B61B39B1AE008217BF /* Images.xcassets */; };
+		7CEC82BA1B39B1AE008217BF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CEC82B81B39B1AE008217BF /* LaunchScreen.xib */; };
+		7CEC82C61B39B1AE008217BF /* AudioQuranTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEC82C51B39B1AE008217BF /* AudioQuranTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CEC82C01B39B1AE008217BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CEC82A21B39B1AD008217BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CEC82A91B39B1AE008217BF;
+			remoteInfo = AudioQuran;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7CEC82AA1B39B1AE008217BF /* AudioQuran.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioQuran.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CEC82AE1B39B1AE008217BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CEC82AF1B39B1AE008217BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7CEC82B11B39B1AE008217BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7CEC82B41B39B1AE008217BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CEC82B61B39B1AE008217BF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7CEC82B91B39B1AE008217BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7CEC82BF1B39B1AE008217BF /* AudioQuranTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioQuranTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CEC82C41B39B1AE008217BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CEC82C51B39B1AE008217BF /* AudioQuranTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioQuranTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CEC82A71B39B1AE008217BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CEC82BC1B39B1AE008217BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CEC82A11B39B1AD008217BF = {
+			isa = PBXGroup;
+			children = (
+				7CEC82AC1B39B1AE008217BF /* AudioQuran */,
+				7CEC82C21B39B1AE008217BF /* AudioQuranTests */,
+				7CEC82AB1B39B1AE008217BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CEC82AB1B39B1AE008217BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CEC82AA1B39B1AE008217BF /* AudioQuran.app */,
+				7CEC82BF1B39B1AE008217BF /* AudioQuranTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CEC82AC1B39B1AE008217BF /* AudioQuran */ = {
+			isa = PBXGroup;
+			children = (
+				7CEC82AF1B39B1AE008217BF /* AppDelegate.swift */,
+				7CEC82B11B39B1AE008217BF /* ViewController.swift */,
+				7CEC82B31B39B1AE008217BF /* Main.storyboard */,
+				7CEC82B61B39B1AE008217BF /* Images.xcassets */,
+				7CEC82B81B39B1AE008217BF /* LaunchScreen.xib */,
+				7CEC82AD1B39B1AE008217BF /* Supporting Files */,
+			);
+			path = AudioQuran;
+			sourceTree = "<group>";
+		};
+		7CEC82AD1B39B1AE008217BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CEC82AE1B39B1AE008217BF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7CEC82C21B39B1AE008217BF /* AudioQuranTests */ = {
+			isa = PBXGroup;
+			children = (
+				7CEC82C51B39B1AE008217BF /* AudioQuranTests.swift */,
+				7CEC82C31B39B1AE008217BF /* Supporting Files */,
+			);
+			path = AudioQuranTests;
+			sourceTree = "<group>";
+		};
+		7CEC82C31B39B1AE008217BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CEC82C41B39B1AE008217BF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CEC82A91B39B1AE008217BF /* AudioQuran */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CEC82C91B39B1AE008217BF /* Build configuration list for PBXNativeTarget "AudioQuran" */;
+			buildPhases = (
+				7CEC82A61B39B1AE008217BF /* Sources */,
+				7CEC82A71B39B1AE008217BF /* Frameworks */,
+				7CEC82A81B39B1AE008217BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioQuran;
+			productName = AudioQuran;
+			productReference = 7CEC82AA1B39B1AE008217BF /* AudioQuran.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CEC82BE1B39B1AE008217BF /* AudioQuranTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CEC82CC1B39B1AE008217BF /* Build configuration list for PBXNativeTarget "AudioQuranTests" */;
+			buildPhases = (
+				7CEC82BB1B39B1AE008217BF /* Sources */,
+				7CEC82BC1B39B1AE008217BF /* Frameworks */,
+				7CEC82BD1B39B1AE008217BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CEC82C11B39B1AE008217BF /* PBXTargetDependency */,
+			);
+			name = AudioQuranTests;
+			productName = AudioQuranTests;
+			productReference = 7CEC82BF1B39B1AE008217BF /* AudioQuranTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CEC82A21B39B1AD008217BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Noor;
+				TargetAttributes = {
+					7CEC82A91B39B1AE008217BF = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					7CEC82BE1B39B1AE008217BF = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 7CEC82A91B39B1AE008217BF;
+					};
+				};
+			};
+			buildConfigurationList = 7CEC82A51B39B1AD008217BF /* Build configuration list for PBXProject "AudioQuran" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CEC82A11B39B1AD008217BF;
+			productRefGroup = 7CEC82AB1B39B1AE008217BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CEC82A91B39B1AE008217BF /* AudioQuran */,
+				7CEC82BE1B39B1AE008217BF /* AudioQuranTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CEC82A81B39B1AE008217BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CEC82B51B39B1AE008217BF /* Main.storyboard in Resources */,
+				7CEC82BA1B39B1AE008217BF /* LaunchScreen.xib in Resources */,
+				7CEC82B71B39B1AE008217BF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CEC82BD1B39B1AE008217BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CEC82A61B39B1AE008217BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CEC82B21B39B1AE008217BF /* ViewController.swift in Sources */,
+				7CEC82B01B39B1AE008217BF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CEC82BB1B39B1AE008217BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CEC82C61B39B1AE008217BF /* AudioQuranTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CEC82C11B39B1AE008217BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CEC82A91B39B1AE008217BF /* AudioQuran */;
+			targetProxy = 7CEC82C01B39B1AE008217BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7CEC82B31B39B1AE008217BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CEC82B41B39B1AE008217BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CEC82B81B39B1AE008217BF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CEC82B91B39B1AE008217BF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CEC82C71B39B1AE008217BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7CEC82C81B39B1AE008217BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CEC82CA1B39B1AE008217BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AudioQuran/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7CEC82CB1B39B1AE008217BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AudioQuran/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7CEC82CD1B39B1AE008217BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AudioQuranTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioQuran.app/AudioQuran";
+			};
+			name = Debug;
+		};
+		7CEC82CE1B39B1AE008217BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AudioQuranTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioQuran.app/AudioQuran";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CEC82A51B39B1AD008217BF /* Build configuration list for PBXProject "AudioQuran" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CEC82C71B39B1AE008217BF /* Debug */,
+				7CEC82C81B39B1AE008217BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CEC82C91B39B1AE008217BF /* Build configuration list for PBXNativeTarget "AudioQuran" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CEC82CA1B39B1AE008217BF /* Debug */,
+				7CEC82CB1B39B1AE008217BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7CEC82CC1B39B1AE008217BF /* Build configuration list for PBXNativeTarget "AudioQuranTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CEC82CD1B39B1AE008217BF /* Debug */,
+				7CEC82CE1B39B1AE008217BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CEC82A21B39B1AD008217BF /* Project object */;
+}
