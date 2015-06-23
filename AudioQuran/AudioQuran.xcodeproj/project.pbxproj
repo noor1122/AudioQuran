@@ -13,6 +13,7 @@
 		7CEC82B71B39B1AE008217BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CEC82B61B39B1AE008217BF /* Images.xcassets */; };
 		7CEC82BA1B39B1AE008217BF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CEC82B81B39B1AE008217BF /* LaunchScreen.xib */; };
 		7CEC82C61B39B1AE008217BF /* AudioQuranTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEC82C51B39B1AE008217BF /* AudioQuranTests.swift */; };
+		7CEC82D41B39F0C7008217BF /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEC82D31B39F0C7008217BF /* RootViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		7CEC82BF1B39B1AE008217BF /* AudioQuranTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioQuranTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CEC82C41B39B1AE008217BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CEC82C51B39B1AE008217BF /* AudioQuranTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioQuranTests.swift; sourceTree = "<group>"; };
+		7CEC82D31B39F0C7008217BF /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				7CEC82AF1B39B1AE008217BF /* AppDelegate.swift */,
+				7CEC82D31B39F0C7008217BF /* RootViewController.swift */,
 				7CEC82B11B39B1AE008217BF /* ViewController.swift */,
 				7CEC82B31B39B1AE008217BF /* Main.storyboard */,
 				7CEC82B61B39B1AE008217BF /* Images.xcassets */,
@@ -214,6 +217,7 @@
 			files = (
 				7CEC82B21B39B1AE008217BF /* ViewController.swift in Sources */,
 				7CEC82B01B39B1AE008217BF /* AppDelegate.swift in Sources */,
+				7CEC82D41B39F0C7008217BF /* RootViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
