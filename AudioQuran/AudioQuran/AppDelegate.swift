@@ -16,11 +16,33 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: NSDictionary?) -> Bool {
         
-        var rootView: RootViewController = RootViewController()
         
-        if let window = self.window{
-            window.rootViewController = rootView
-        }
+//        var rootView: RootViewController = RootViewController()
+////        
+//        if let window = self.window{
+//            
+//            window.rootViewController = rootView
+//            window.rootViewController?.view.frame = CGRectMake(0, 0, 320, 100)
+//        }
+//        self.window?.rootViewController = rootView
+        //-----
+        
+//        let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+//        // "MiniGameView" is the ID given to the ViewController in the interfacebuilder
+//        // MiniGameViewController is the CLASS name of the ViewController.swift file acosiated to the ViewController
+//        var setViewController = mainStoryboard.instantiateViewControllerWithIdentifier("RootVC") as RootViewController
+//        var rootViewController = self.window!.rootViewController
+//        rootViewController?.presentViewController(setViewController, animated: false, completion: nil)
+       //----
+        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        
+        var storyboard = UIStoryboard(name: "Main", bundle: nil)
+        
+        var initialViewController = storyboard.instantiateViewControllerWithIdentifier("RootVC") as UIViewController
+        
+        self.window?.rootViewController = initialViewController
+        initialViewController.view.frame = CGRectMake(0, 500, 320, 100)
+        self.window?.makeKeyAndVisible()
         
         return true
     }
